@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+    /* 640이상 */
+    @media (min-width:640px){
+      .article{
+        flex:1 1 49%;
+        height:49vw;
+        margin-right:0;
+      }
+      .art640{
+        margin-right:2%;
+      }
+      section>.article:nth-child(5){
+        flex:1 1 100%;
+      }
+    }
